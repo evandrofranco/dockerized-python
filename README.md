@@ -12,7 +12,9 @@ Run Local with Python 3.7:
 
 ## Build Docker Webservice
 Build:
+    
     docker build -f Dockerfile -t py-web-service .
 
 Test:
+    
     docker run -d -it -p 80:5000 py-web-service
