@@ -7,7 +7,7 @@ def home():
     return render_template("home.html")
     
 @app.route("/docker")
-def salvador():
+def docker():
     return "Hello, Docker"
     
 if __name__ == "__main__":
